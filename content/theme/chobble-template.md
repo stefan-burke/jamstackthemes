@@ -7,12 +7,14 @@ date: 2025-04-04
 ssg:
   - Eleventy
 cms:
-  - No CMS
+  - PagesCMS
 css:
   - MVP 
 archetype:
   - Business
   - Products
+  - Events
+  - Menus
   - Blog
 description: An opinionated theme for small business websites
 ---
@@ -23,12 +25,13 @@ This is the template used for websites made by [Chobble](https://chobble.com). I
 
 ## Features
 
-* Product and category listings
-* News system with archive
-* Galleries
-* RSS Feed
+* Built-in [theme editor](https://example.chobble.com/theme-editor/)
+* Github Action for deploying to Neocities ([instructions](https://example.chobble.com/instructions/))
+* Layouts for: Pages, products, categories, galleries, menus, team members, events, and news
+* Image galleries
+* RSS Feed with pretty layout
 * Sitemap
-* Social media links
+* Social media links with SVG icons
 * (Optionally) build with Nix Flakes for reproducibility
 * Responsive images with Eleventy's [image plugin](https://www.11ty.dev/docs/plugins/image/)
 * Tiered navigation with Eleventy's [navigation plugin](https://www.11ty.dev/docs/plugins/navigation/)
